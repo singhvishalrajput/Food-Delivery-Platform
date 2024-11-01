@@ -5,10 +5,11 @@
 
 .cart-items-title{
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-columns: 1fr 1.3fr 1fr 1fr 1fr 1fr;
     align-items: center;
     color: grey;
     font-size: max1vw, 12px;
+    gap: 7px;
 }
 
 .cart-items-item{
@@ -17,7 +18,7 @@
 }
 
 .cart-items-item img{
-    width: 50px;
+    width: 45px;
     border-radius: 5px;
 }
 
