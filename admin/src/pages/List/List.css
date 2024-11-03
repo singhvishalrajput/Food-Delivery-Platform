@@ -1,0 +1,36 @@
+.list-table-format{
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 0.8fr 0.5fr 0.5fr;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 8px;
+    border: 1px solid #cacaca;
+    font-size: 13px;
+}
+
+.list-table-format.title{
+    background-color: #f9f9f9;
+}
+
+.list-table-format img{
+    width: 50px;
+}
+
+.cursor{
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -4px;
+}
+
+
+
+@media (max-width: 600px){
+    .list-table-format{
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    .list-table-format.title{
+        display: none;
+    }
+}
