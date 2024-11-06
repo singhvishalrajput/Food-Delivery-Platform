@@ -17,7 +17,7 @@ const orderSchema = new mongoose.Schema({
         type:Object,
         required:true,
     },
-    Status:{
+    status:{
         type:String,
         default:"Food Processing"
     },
