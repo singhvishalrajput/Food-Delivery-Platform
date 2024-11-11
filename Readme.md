@@ -4,6 +4,12 @@ An e-commerce platform for managing food items, user carts, orders, and payments
 
 ---
 
+![Website Screenshot](./frontend/src/assets/website.png)
+
+[Watch the Demo on YouTube](https://youtu.be/V0B-vHCAYQo)
+
+---
+
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
